@@ -9,3 +9,5 @@ pip install -r requirements.txt
 pip install cufflinks plotly
 
 python .\candlechart.py
+
+pip freeze > requirements.txt 

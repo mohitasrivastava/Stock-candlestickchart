@@ -1,0 +1,11 @@
+# Create a virtual environment and activate it
+pip install virtualenv 
+virtual venv
+.\venv\Scripts\Activate.ps1
+
+# Install dependencies
+pip install -r requirements.txt
+
+pip install cufflinks plotly
+
+python .\candlechart.py
